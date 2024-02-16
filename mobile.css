@@ -1,0 +1,165 @@
+@media (max-width:970px) {
+    .nav-bar {
+        padding: 0px 22px;
+    }
+
+    .nav-right-menu {
+        display: none;
+    }
+
+    .drop-down {
+        width: 100%;
+        left: 0px;
+        display: flex;
+    }
+    
+    .whats-aap img {
+        width: 50px;
+    }
+
+    #toggel i {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .left-contant {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whats-aap {
+
+      
+        right: 10px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .nav-right-menu {
+        display: none;
+    }
+
+    #toggel i {
+        display: block;
+    }
+
+    .drop-down {
+        width: 100%;
+        left: 0px;
+        display: inline-flex;
+    }
+
+
+    .drop-down .center {
+        width: 95%;
+
+    }
+}
+
+@media (max-width:600px) {
+
+    .nav-logo h2 {
+        font-size: 1.3rem;
+    }
+
+    .nav-bar {
+        padding: 0px 22px;
+    }
+
+    .about-text {
+
+        width: 350px;
+    }
+
+    .about img {
+
+        width: 400px;
+
+    }
+
+    .footer-wrap {
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .social-footer {
+        margin: 30px;
+    }
+
+    .footer-text-sub-head,
+    .footer-email-contact {
+        text-align: left;
+    }
+
+    .testi-heading h1 {
+        font-size: 20px;
+    }
+
+    .get-direction-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:470px) {
+    .nav-bar {
+        padding: 0px 22px;
+    }
+
+    .slide-text-wrap {
+
+        width: 70%;
+        margin: 0px auto;
+        position: relative;
+        top: -14%;
+
+    }
+
+    .nav-logo h2 {
+        font-size: 1.3rem;
+    }
+
+    .about-text {
+
+        width: 328px;
+        font-size: .7rem;
+    }
+
+    .about img {
+
+        width: 325px;
+        height: 300px;
+
+    }
+
+    .slide-text h1 {
+        font-size: 25px;
+    }
+
+    .slide-text p {
+        font-size: 12px;
+    }
+
+    .contact-us-sec form {
+        width: 272px;
+    }
+
+    .send-btn {
+        width: 290px;
+    }
+}
